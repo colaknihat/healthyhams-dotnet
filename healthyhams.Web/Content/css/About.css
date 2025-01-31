@@ -1,0 +1,111 @@
+﻿html {
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F8EFF0;
+	position: relative;
+	min-height: 100%;
+	-ms-overflow-style: none;
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+body {
+	margin-bottom: 60px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F8EFF0;
+}
+
+h1 {
+	color: #000000;
+	font-weight: 500;
+	font-size: 65px;
+	margin-top: 50px;
+	margin-left: -50px;
+}
+
+h2 {
+	color: #40513B;
+	font-weight: 600;
+	font-size: 25px;
+	margin-left: -50px;
+	padding-top: 10px;
+}
+
+p {
+	color: #40513B;
+	font-weight: 600;
+	font-size: 15px;
+	margin-left: -50px;
+	padding-top: 20px;
+}
+
+#question {
+	color: #000000;
+	font-weight: 600;
+	font-size: 20px;
+	margin-left: -50px;
+}
+
+.container-aboutpage {
+	padding: 70px;
+	text-align: center;
+}
+
+
+.button {
+	background-color: #40513B;
+	color: #40513B96;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: -50px;
+	height: 60px;
+	width: 150px;
+	padding: 10px 30px;
+	top: 20px;
+}
+
+	.button:hover {
+		background-color: #40513B96;
+		color: #40513B;
+		border: 2px solid #40513B;
+	}
+
+#contact {
+	padding-top: 10px;
+	color: #000000;
+}
+
+.nav-item {
+	padding-right: 20px;
+}
+
+.nav-link {
+	color: #609966;
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+	.nav-link:hover {
+		color: #40513B;
+	}
+
+.navbar img {
+	position: relative;
+	right: 130px;
+}
+
+a {
+	color: #609966;
+}
+
+	a:hover {
+		color: #40513B;
+	}

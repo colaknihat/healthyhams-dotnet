@@ -1,0 +1,89 @@
+﻿html {
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F8EFF0;
+	position: relative;
+	min-height: 100%;
+	-ms-overflow-style: none;
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+body {
+	margin-bottom: 60px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F8EFF0;
+}
+
+h1 {
+	color: #609966;
+	font-weight: 500;
+	font-size: 65px;
+	margin-top: 50px;
+	margin-left: -50px;
+}
+
+h2 {
+	color: #40513B;
+	font-weight: 500;
+	font-size: 55px;
+	margin-left: -50px;
+}
+
+p {
+	color: #9DC08B;
+	font-weight: 500;
+	font-size: 35px;
+	margin-left: -50px;
+}
+
+.container-homepage {
+	padding: 70px;
+	float: left;
+	margin-left: -50px;
+}
+
+.button {
+	background-color: #40513B;
+	color: #9DC08B;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: -50px;
+	height: 60px;
+	width: 150px;
+	padding: 10px 30px;
+	top: 20px;
+}
+
+	.button:hover {
+		background-color: #9DC08B;
+		color: #40513B;
+		border: 2px solid #40513B;
+	}
+
+.nav-item {
+	padding-right: 20px;
+}
+
+.nav-link {
+	color: #609966;
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+	.nav-link:hover {
+		color: #40513B;
+	}
+
+.navbar img {
+	position: relative;
+	right: 130px;
+}

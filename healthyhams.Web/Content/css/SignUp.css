@@ -1,0 +1,105 @@
+﻿html {
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F8EFF0;
+	position: relative;
+	min-height: 100%;
+	-ms-overflow-style: none;
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+body {
+	margin-bottom: 60px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F8EFF0;
+}
+
+h1 {
+	color: #609966;
+	font-weight: 600;
+	font-size: 40px;
+	margin-top: 40px;
+	margin-left: 27px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+p {
+	color: #609966;
+	font-weight: 600;
+	font-size: 15px;
+	margin-top: 30px;
+	margin-left: 0;
+	text-align: center;
+}
+
+.button {
+	background-color: #40513B;
+	color: #9DC08B;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	height: 60px;
+	width: 150px;
+	top: 20px;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: block;
+}
+
+	.button:hover {
+		background-color: #9DC08B;
+		color: #40513B;
+		border: 2px solid #40513B;
+	}
+
+.nav-item {
+	padding-right: 20px;
+}
+
+.nav-link {
+	color: #609966;
+	font-weight: 600;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+	.nav-link:hover {
+		color: #40513B;
+	}
+
+.navbar img {
+	position: relative;
+	right: 130px;
+}
+
+a {
+	color: #609966;
+}
+
+	a:hover {
+		color: #40513B;
+	}
+
+.form-group {
+	padding-top: 10px;
+	padding-right: 15px;
+	color: #40513B;
+	font-weight: 600;
+	font-size: 18px;
+	text-align: end;
+	margin-right: 30px;
+}
+
+.group {
+	width: 300px;
+}
+
+span {
+	font-size: 15px;
+}

@@ -1,0 +1,156 @@
+﻿html {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F8EFF0;
+    position: relative;
+    min-height: 100%;
+    -ms-overflow-style: none;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F8EFF0;
+}
+
+h1 {
+    color: #609966;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 140px;
+    margin-bottom: 50px;
+    text-align: left;
+/**/}
+
+h3 {
+    color: #609966;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 70px;
+    text-align: left;
+}
+
+p {
+    color: #609966;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.button {
+    background-color: #40513B;
+    color: #9DC08B;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    height: 45px;
+    width: 130px;
+    top: 50px;
+    margin-left: 210px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+    .button:hover {
+        background-color: #9DC08B;
+        color: #40513B;
+        border: 2px solid #40513B;
+    }
+
+.save-button {
+    background-color: #40513B;
+    color: #9DC08B;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    height: 45px;
+    width: 130px;
+    top: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+    .save-button:hover {
+        background-color: #9DC08B;
+        color: #40513B;
+        border: 2px solid #40513B;
+    }
+.nav-item {
+    padding-right: 20px;
+}
+
+.nav-link {
+    color: #609966;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+    .nav-link:hover {
+        color: #40513B;
+    }
+
+.navbar img {
+    position: relative;
+    right: 130px;
+}
+
+a {
+    color: #609966;
+}
+
+    a:hover {
+        color: #40513B;
+    }
+
+/*    .table {
+        width: 70px;
+    }*/
+/**/
+.form-group {
+    padding-top: 10px;
+    padding-right: 15px;
+    color: #40513B;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: end;
+    margin-right: 30px;
+}
+
+.group {
+    width: 300px;
+}
+
+span {
+    font-size: 15px;
+}
+
+.instruction-container {
+    background-color: #9DC08B;
+    width: 500px;
+    height: 250px;
+    margin: 50px;
+    float: right;
+    top: -40px;
+}
+
+    .instruction-container p, h2 {
+        color: #609966;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .instruction-container h2 {
+        margin-top: 40px;
+    }
